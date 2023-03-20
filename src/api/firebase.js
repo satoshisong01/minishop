@@ -11,10 +11,12 @@ import {
 import { getDatabase, ref, get, set, remove } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_FIREBASE_DB_URL,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  apiKey: "AIzaSyD1QhlCmwn0ZBhEdRulLrzO6kP5olTz_yU",
+  authDomain: "minishop-240ab.firebaseapp.com",
+  databaseURL:
+    "https://minishop-240ab-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "minishop-240ab",
+  // projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
 };
 
 const app = initializeApp(firebaseConfig);
